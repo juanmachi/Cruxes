@@ -1,0 +1,534 @@
+
+/********************** GENERAL *************************/
+
+.color1{
+    background-color: #FFF5EB;
+}
+
+body {
+    background-color: #FFF5EB!important;
+}
+
+.row.footer{
+    width: 102%;
+    height: 300px;
+    background: #FFC58C;
+}
+
+.secciones.texto-footer,.secciones-2.texto-footer{
+    margin-top: 80px;
+}
+
+.secciones.texto-footer{
+    margin-left: 60px;
+}
+
+.redes-footer .texto-footer p{
+    /* margin-left: 40px; */
+}
+
+img.logo-footer {
+    margin-top: 72px;
+}
+
+.texto-footer{
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;    
+    color: #000000;
+}
+
+.redes {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.redes a, .secciones-2.texto-footer a, .secciones.texto-footer a, .texto-footer a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+.redes a:hover, .secciones-2.texto-footer a:hover, .secciones.texto-footer a:hover, .texto-footer a p:hover{
+    color: #FF7801;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: black;
+    width: 110%;
+    margin-left: -24px;
+}
+
+div.titulo-menu-cruxes {
+    background-color: #FF7F00;
+    width: 103%;
+    height: 200px;
+    margin-left: -2%;
+    padding: 2px;
+}
+
+.titulo-menu-cruxes h2 {
+    text-align: center;
+    color: white;
+    font-family: helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    margin-bottom: 28px;
+    line-height: 49px;
+    padding: 30px 0px 0px;
+}
+
+.titulo-menu-cruxes p{
+    font-family: Helvetica;
+    font-style: normal;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+
+img.btn-redes {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button.btn.btn-danger.color-container {
+    background-color: #FF330D;
+}
+
+/* a.texto-container {
+    text-decoration: none;
+    color: #FF7F00;
+}
+
+a.texto-container:hover {
+    text-decoration: none;
+    color: #FF330D;
+} */
+
+a.texto-container {
+    text-decoration: none;
+    color: black;
+}
+
+a.texto-container:hover {
+    text-decoration: none;
+    color: #FF7F00;
+}
+
+
+  
+.modal-dialog {
+    margin-top: 0rem;
+    max-width: 100%;
+}
+.modal-content {
+    border-radius: 0rem;
+}
+.btn {
+    margin: 0.2rem;
+}
+    
+
+#cajacookies {
+    box-shadow: 0px 0px 5px 5px #808080;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+  
+  #cajacookies button {
+    color: black;
+  }
+
+  li.divider {
+    height: 2px;
+    background-color: #FF7F00;
+}
+  
+
+
+  
+
+
+/********************** HOME *************************/
+
+#header-home{padding-top: 50px;height: 168px;}
+
+.wrapper-principal img{
+    width: 90%;
+    height: 560px;
+    margin-left: 4%;
+    margin-top: 9%;
+    margin-bottom: 100px;
+}
+
+img.logo-header {
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+.separador{
+    width: 90%;
+    height: 0px;
+    margin-left: 5%;
+    margin-top: 3%;
+    border: 1px solid #FFCE9D;
+}
+
+.texto-header{
+    font-family: "Helvetica";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FF3A0B;
+    margin-top: 20px;
+}
+
+.col-md-3.redes-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.inicio-top-left{
+    position: absolute;
+    padding: 82px;
+    border-radius: 80px;
+    top: 15%;
+    left: 17%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.inicio-top-right{
+    position: absolute;
+    padding: 82px;
+    border-radius: 80px;
+    top: 15%;
+    right: 19%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.inicio-bottom-left{
+    position: absolute;
+    padding: 82px;
+    border-radius: 80px;
+    top: 64%;
+    left: 17%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.inicio-bottom-right{
+    position: absolute;
+    padding: 82px;
+    border-radius: 80px;
+    top: 64%;
+    right: 19%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.redes-footer {
+    margin-top: 18px;
+}
+
+
+
+/********************** CONTACTO *************************/
+
+
+
+main#main-productos {
+    margin-left: -15px;
+    width: 103%;
+    background-color: #FFF5EB;
+    padding: 1px;
+    display: flex;
+}
+
+form.form-horizontal {
+    margin-top: 47px;
+    margin-left: 147px;
+}
+
+#btn-contacto{
+    cursor: pointer;
+    background: #FF330D;
+    color: white;
+}
+
+#btn-contacto:hover{
+    cursor: pointer;
+    background: white;
+    color: #FF330D;
+    font-weight: bold;
+}
+
+#main-productos .col-md-5 p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+#main-productos .col-md-5 {
+    margin-top: 44px;
+}
+
+p.col-md-10 {
+    margin-left: 10%;
+}
+
+.custom-control.custom-checkbox {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+#main-productos .col-md-5 p {
+    line-height: 50px;
+    text-align: center;
+}
+
+p.texto-ayuda {
+    line-height: 22px !important;
+    text-align: center;
+    margin-top: 120px;
+}
+
+
+/********************** EMPRESAS *************************/
+
+.responsabilidad.col-md-10 {
+    margin: 34px 119px 40px 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.responsabilidad h4 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    color: #FF330D;
+    text-decoration: underline;
+}
+
+.responsabilidad p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 40px;
+    color: #000000;
+}
+
+.responsabilidad button {
+    width: 50%;
+    background-color: #FF330D;
+    color: white;
+    margin-left: 140px;
+    padding: 11px;
+    font-size: 20px;
+    border: none;
+}
+
+.responsabilidad button:hover {
+    background-color: white;
+    color: red;
+    /* font-weight: 600; */
+}
+
+.responsabilidad img {
+    /* padding: 130px 0px 42px 120px; */
+    width: 600px;
+    height: 432px;
+    /* border: solid 1px black; */
+}
+
+div#forma-equipo {
+    background-color: #FFCE9D;
+}
+
+#forma-text{
+    margin-bottom: 38px;
+}
+
+#forma-equipo2 h4 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 50px;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+}
+
+p#forma-text {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+p#forma-text-insc {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 33px;
+    margin-top: 12px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #373A3C;
+}
+
+#forma-equipo2 button {
+    width: 20%;
+    background-color: #FF330D;
+    color: white;
+    font-weight: 600;
+    margin-left: 40%;
+    margin-bottom: 28px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+
+
+/********************** QS *************************/
+
+.col-md-7 .texto {
+    line-height: 32px;
+}
+
+.titulo-menu-cruxes.texto-qs {height: 220px;}
+
+
+/********************** VOLUNTARIOS *************************/
+
+button.voluntarios{
+    width: 50%;
+    background-color: #FF330D;
+    color: white;
+    margin-left: 140px;
+    padding: 11px;
+    font-size: 20px;
+    border: none;
+    margin-top: 68px;
+}
+
+.carousel-backcolor{
+    background-color: darkorange;
+}
+
+
+/********************** DONÁ *************************/
+
+#global {
+	height: 500px;
+	width: 80%;
+	border: 1px solid #ddd;
+	background: #f1f1f1;
+	overflow-y: scroll;
+	MARGIN-LEFT: 10%;
+	margin-top: 3%;
+}
+#mensajes {
+	height: auto;
+}
+.texto {
+	padding:4px;
+	/* background:#fff; */
+}
+
+
+/********************** MEDIA QUERYS *************************/
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+    img.logo-header {
+        margin-left: 22%;
+        margin-top: 12px;
+    }
+  }
+
+
+
+
+@media only screen and (min-width: 1450px) {
+    .titulo-menu-cruxes p {
+        margin-left: 68px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #img_principal {
+        background:url(img/imgprincipal-2.png);
+        width:100%;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 20%;
+        margin-bottom: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    #img_principal {
+        background: url(img/imgprincipal-2.png);
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 30%;
+        margin-bottom: 100px;
+    }
+}
+
+
